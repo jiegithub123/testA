@@ -1,0 +1,12 @@
+Class TestAddFrom1To100{
+  TestAddFrom1To100(){
+    System.out.println("test first use!");
+  }
+  public static void main(String[] args){
+    int i = 0;
+    for(int k = 1; k <= 100; k++){
+      i += k;
+    }
+    System.out.println(i);
+  }
+}
